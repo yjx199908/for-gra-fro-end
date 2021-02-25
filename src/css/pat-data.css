@@ -1,0 +1,92 @@
+#pat-data{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#pat-data .bottom-area{
+    height: 92vh;
+    box-sizing: border-box;
+    padding: 5vh 20vh 0;
+}
+
+#pat-data .bottom-area .work-body{
+    width: 100%;
+    height: 90%;
+    background-color: rgba(255,255,255,0.5);
+}
+
+#pat-data .bottom-area .work-body .for-search{
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(255,255,255,0.8);
+}
+
+#pat-data .bottom-area .work-body .for-search label{
+    color: rgb(81,81,81);
+}
+
+#pat-data .bottom-area .work-body .for-search .el-input{
+    width:15%;
+}
+
+#pat-data .bottom-area .work-body .for-show{
+    height: 90%;
+    overflow-y: scroll;
+}
+
+#pat-data .bottom-area .work-body .el-pagination{
+    padding-top: 2vh;
+}
+
+#pat-data .visit-show{
+    width:100%;
+    height: 100%;
+}
+
+#pat-data .visit-show .drawer-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 5vh;
+}
+
+#pat-data .visit-show .drawer-body{
+    height: 95vh;
+    overflow-y: scroll;
+}
+
+#pat-data .cus-dialog-box .des-item-re-con{
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 4vh;
+    box-shadow: 0px 0px 8px rgba(200,200,200,0.7);
+}
+
+#pat-data .cus-dialog-box .des-item-re-con .item-con{
+    width:28%;
+    height: 3em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#pat-data .cus-dialog-box .des-item-re-con .item-con .item-name{
+    width: 50%;
+    color: rgba(100,100,100,0.7);
+    font-weight: 400;
+}
+
+#pat-data .cus-dialog-box .item-value{
+    padding: 0 1em;
+    color: rgba(100,100,100,0.6);
+    font-weight: 600;
+}
